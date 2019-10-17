@@ -71,7 +71,7 @@
           </block>  
        </view>
     </view>
-    <view class='wrapper' wx:if="{{fastList.length}}">
+    <!-- <view class='wrapper' wx:if="{{fastList.length}}">
        <view class='title acea-row row-between-wrapper'>
           <view class='text'>
              <view class='name line1'>快速选择</view>
@@ -91,8 +91,16 @@
               </block>  
            </scroll-view>
         </view>
-    </view>
-     <view class='wrapper' wx:if="{{bastList.length}}">
+    
+    
+    
+    
+    
+    
+    
+    
+    </view> -->
+     <!-- <view class='wrapper' wx:if="{{bastList.length}}">
        <view class='title acea-row row-between-wrapper'>
           <view class='text'>
              <view class='name line1'>精品推荐</view>
@@ -113,7 +121,7 @@
             </swiper>
        </view>
        <goodList bastList="{{bastList}}"></goodList>
-    </view>
+    </view> -->
     <view class='hotList' wx:if="{{likeInfo.length}}">
        <view class='hot-bg'>
           <view class='title acea-row row-between-wrapper'>
