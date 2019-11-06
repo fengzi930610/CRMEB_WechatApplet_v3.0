@@ -169,7 +169,7 @@
              <view class='name line1'>促销单品</view>
              <view class='line1'>{{salesInfo}}</view>
           </view>
-          <navigator class='more' hover-class="none" url='/pages/promotional-items/index'>更多<text class='iconfont icon-jiantou'></text></navigator>
+          <navigator class='more' hover-class="none" url='/pages/promotional-items/index?type=4'>更多<text class='iconfont icon-jiantou'></text></navigator>
        </view>
        <promotionGood benefit="{{benefit}}"></promotionGood>
     </view>
